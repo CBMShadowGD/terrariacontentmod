@@ -1,0 +1,10 @@
+name: large stardust wall
+description: A wall made of stardust.
+type: Wall
+health: 4000
+size: 2
+requirements: [
+  stardust fragments/24
+]
+category: defense
+research: stardust-wall

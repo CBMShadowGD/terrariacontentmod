@@ -1,0 +1,26 @@
+name: Stardust Factory
+description: makes stardust units
+type: UnitFactory
+size: 3
+consumes: {
+power: 2
+}
+plans: [
+{
+unit: cell
+requirements: [
+luminite/25
+stardust fragments/20
+silicon/30
+]
+time:600
+}
+]
+
+requirements: [
+luminite/100
+stardust fragments/50
+silicon/75
+]
+category: units
+research: air-factory

@@ -1,0 +1,10 @@
+name: large luminite wall
+description: A wall made of luminite.
+type: Wall
+health: 2000
+size: 2
+requirements: [
+  luminite/24
+]
+category: defense
+research: luminite-wall

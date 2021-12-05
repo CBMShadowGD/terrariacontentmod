@@ -1,0 +1,32 @@
+name: Stardust Additive Reconstructor
+description: used to make tier 2 stardust units
+type: Reconstructor
+size: 3
+consumes: {
+power: 3
+items: {
+items: [
+thorium/40
+silicon/50
+luminite/20
+stardust fragments/30
+]
+}
+}
+constructTime: 900
+
+requirements: [
+titanium/150
+luminite/50
+silicon/100
+thorium/120
+stardust fragments/50
+]
+
+upgrades: [
+[
+cell,starcell
+]
+]
+category: units
+research: air-factory
