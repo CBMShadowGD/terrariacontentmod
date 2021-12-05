@@ -1,0 +1,55 @@
+name: starcell
+type: flying
+description: tier 2 cell
+health: 500
+speed: 3
+accel: 0.01
+drag: 0.005
+engineOffset: 8
+range: 90
+flying: true
+hitSize: 4
+targetGround: true
+targetAir: true
+rotateSpeed: 18
+
+weapons:[
+{
+ name: StardustCellGun
+ reload: 20
+ x: 0
+ y: 0
+ rotate: true
+ recoil: 3
+ top:false
+ mirror: true
+ shootSound: lasershoot
+ bullet:{
+ type: BasicBulletType
+ splashDamageRadius: 0
+ damage: 8 
+ speed: 5
+ lifetime: 55
+ }
+
+}
+{
+ name: StardustCellGun2
+ reload: 120
+ x: 0
+ y: 0
+ rotate: true
+ recoil: 6
+ top:false
+ mirror:false
+ shootSound: lasershoot
+ bullet:{
+ type: missileBulletType
+ splashDamageRadius: 200
+ damage: 75
+ speed: 5
+ lifetime: 55
+ }
+
+}
+]
