@@ -1,7 +1,3 @@
-small vortex walls - 20% lightning chance
-100 dmg
-large vortex walls - 100% lightning chance
-hp = 
 1 space of factory = 50 hp
 luminite drill-compact laser drill no power 
 abilites for some units?
@@ -9,3 +5,4 @@ abilites for some units?
   - Solar enemies have a healing field
   - Vortex enemies have a shield repair zone around them (yes thats an ability)
   - idk about Nebula tho (maybe they are payload enemies?)
+ 
