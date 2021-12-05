@@ -1,0 +1,6 @@
+small vortex walls - 20% lightning chance
+100 dmg
+large vortex walls - 100% lightning chance
+hp = 
+1 space of factory = 50 hp
+luminite drill-compact laser drill no power 
