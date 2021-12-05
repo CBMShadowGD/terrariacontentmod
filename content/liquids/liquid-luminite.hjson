@@ -1,0 +1,7 @@
+name: liquid luminite
+description: a celestial liquid made out of pure luminite
+temperature: 1
+viscosity: 0.8
+effect: burning
+color: 9201B9
+flammability: 0.7
