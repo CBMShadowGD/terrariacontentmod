@@ -1,0 +1,10 @@
+name: nebula wall
+description: A wall made of nebula.
+type: Wall
+health: 800
+size: 1
+requirements: [
+  nebula fragments/6
+]
+category: defense
+research: large-stardust-wall

@@ -1,0 +1,11 @@
+name: large solar wall
+description: A wall made of solar.
+type: Wall
+health: 4500
+size: 2
+requirements: [
+  solar fragments/24
+]
+category: defense
+research: solar-wall
+

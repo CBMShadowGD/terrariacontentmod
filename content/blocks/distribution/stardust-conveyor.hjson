@@ -1,0 +1,12 @@
+type: Conveyor
+name: stardust conveyor
+description: faster than titanium
+requirements: [
+  stardust fragments/1
+  copper/1
+  lead/1
+  luminite/1
+]
+category: distribution
+speed: 0.15
+research: titanium-conveyor

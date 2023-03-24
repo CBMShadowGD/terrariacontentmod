@@ -1,0 +1,10 @@
+name: stardust wall
+description: A wall made of stardust.
+type: Wall
+health: 625
+size: 1
+requirements: [
+  stardust fragments/6
+]
+category: defense
+research: luminite-wall

@@ -1,0 +1,23 @@
+type: GenericCrafter
+name: nebula extractor
+description: Extracts nebula from deep below.
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 1
+}
+requirements: [
+  galaxy shards/50
+  lead/75
+  graphite/75
+  silicon/50
+  luminite/50
+]
+category: crafting
+research: stardust-extractor
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: nebula shards/1

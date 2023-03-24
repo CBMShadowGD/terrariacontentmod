@@ -1,0 +1,9 @@
+name: luminite liquid
+type: Floor
+liquidDrop: liquid-luminite
+status: burning
+statusDuration: 90
+isLiquid: true
+variants: 0
+drownTime: 300
+speedMultiplier: 0.1

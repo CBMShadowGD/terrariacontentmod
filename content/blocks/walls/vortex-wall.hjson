@@ -1,0 +1,12 @@
+name: vortex wall
+description: A wall made of vortex.
+type: Wall
+health: 875
+size: 1
+requirements: [
+  vortex fragments/6
+]
+category: defense
+research: nebula-wall
+lightningChance: 0.1
+lightningDamage: 50

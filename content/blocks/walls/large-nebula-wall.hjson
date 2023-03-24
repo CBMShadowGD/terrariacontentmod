@@ -1,0 +1,10 @@
+name: large nebula wall
+description: A wall made of nebula, currently same as thorium until I figure out a use.
+type: Wall
+health: 3200
+size: 2
+requirements: [
+  nebula fragments/24
+]
+category: defense
+research: nebula-wall

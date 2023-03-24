@@ -1,0 +1,25 @@
+type: MendProjector
+name: stardust mend projector
+description: a stardust mender
+size: 2
+reload: 75
+healPercent: 25
+phaseRangeBoost: 0
+phaseBoost: 0
+hasPower: true
+consumes: {
+  power: 5
+  liquid: {
+    liquid: liquid-of-the-cosmos
+    amount: 0.02
+  }
+}
+requirements: [
+  stardust fragments/30
+  titanium/50
+  silicon/50
+  luminite/50
+]
+category: effect
+research: stardust-kiln
+

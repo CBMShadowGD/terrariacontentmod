@@ -1,0 +1,11 @@
+type: conduit
+name: stardust conduit
+description: a conduit made of stardust, faster than pulse conduits
+requirements: [
+  stardust fragments/1
+  metaglass/1
+  luminite/1
+]
+category: liquid
+liquidCapacity: 30
+research: pulse-conduit

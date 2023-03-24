@@ -1,0 +1,22 @@
+type: GenericCrafter
+name: luminite extractor
+description: Extracts luminite from deep below.
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 45
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.5
+}
+requirements: [
+  copper/100
+  lead/50
+  graphite/50
+  silicon/25
+]
+category: crafting
+research: mechanical-drill
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: luminite/1

@@ -1,0 +1,23 @@
+type: GenericCrafter
+name: vortex extractor
+description: Extracts vortex from deep below.
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 1
+}
+requirements: [
+  nebula shards/50
+  lead/75
+  graphite/75
+  silicon/50
+  luminite/50
+]
+category: crafting
+research: nebula-extractor
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: storm shards/1

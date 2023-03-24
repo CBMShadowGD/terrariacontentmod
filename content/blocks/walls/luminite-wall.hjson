@@ -1,0 +1,10 @@
+name: luminite wall
+description: A wall made of luminite. 
+type: Wall
+health: 375
+size: 1
+requirements: [
+  luminite/6
+]
+category: defense
+research: copper-wall

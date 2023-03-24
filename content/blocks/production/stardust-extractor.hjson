@@ -1,0 +1,23 @@
+type: GenericCrafter
+name: stardust extractor
+description: Extracts stardust from deep below.
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 1
+}
+requirements: [
+  copper/100
+  lead/75
+  graphite/75
+  silicon/50
+  luminite/50
+]
+category: crafting
+research: luminite-extractor
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: galaxy shards/1

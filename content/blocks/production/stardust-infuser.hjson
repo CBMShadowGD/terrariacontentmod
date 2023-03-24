@@ -1,0 +1,31 @@
+name: stardust infuser
+type: GenericCrafter
+size: 3
+craftTime: 180
+hasPower: true
+liquidCapacity: 100
+outputLiquid: {
+  liquid: liquid-of-the-cosmos
+  amount: 2.5
+}
+consumes: {
+  power: 3
+  items: {
+    items: [ 
+      stardust fragments/5
+    ]
+  }
+  liquid: { 
+    liquid: 
+    cryofluid
+    amount: 3
+  }
+}
+requirements: [ 
+  stardust fragments/50 
+  silicon/75 
+  thorium/50
+  luminite/100 
+]
+category: crafting
+research: ancient-manipulator

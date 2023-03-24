@@ -1,0 +1,9 @@
+name: cosmos liquid
+type: Floor
+liquidDrop: liquid-of-the-cosmos
+status: freezing
+statusDuration: 90
+isLiquid: true
+variants: 0
+drownTime: 180
+speedMultiplier: 0.3

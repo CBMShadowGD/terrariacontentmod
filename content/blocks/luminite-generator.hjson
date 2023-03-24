@@ -1,0 +1,24 @@
+type: ConsumeGenerator
+name: luminite generator
+description: Uses the heat from luminite to produce power acts like a RTG generator.
+size: 2
+hasPower: true
+hasItems: true
+itemDuration: 300
+powerProduction: 1.5
+consumes: {
+  items: {
+    items: [
+      luminite/1
+    ]
+  }
+}
+requirements: [
+  lead/100
+  graphite/75
+  luminite/75
+  silicon/50
+  titanium/50
+]
+category: power
+research: luminite-extractor

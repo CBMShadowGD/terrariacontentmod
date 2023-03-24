@@ -1,0 +1,12 @@
+name: large vortex wall
+description: A wall made of vortex.
+type: Wall
+health: 3500
+lightningChance: 0.5
+lightningDamage: 50
+size: 2
+requirements: [
+  vortex fragments/24
+]
+category: defense
+research: vortex-wall
