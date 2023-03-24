@@ -1,6 +1,6 @@
-name: "Shadows-First-Mod"
-displayName: "[blue]terarria[gold] Mod" //what displays in the mod selection menu
-author: "CBMShadowGD"
-description: "my first mod."
-version: "4"
-minGameVersion: "140.4"
+name: Terraria-Content-Mod
+displayName: Terarria Content Mod
+author: CBMShadowGD
+description: A mindustry content mod inspired by terrarias end game resources.
+version: 0
+minGameVersion: 136
