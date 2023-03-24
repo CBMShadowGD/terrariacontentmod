@@ -1,0 +1,15 @@
+name: luminite power node
+description: A power node made of luminite.
+type: PowerNode
+requirements: [
+lead/5
+luminite/5
+graphite/5
+]
+laserRange: 15
+laserColor1: ab1fed
+laserColor2: 7208aa
+maxNodes: 20
+size: 1
+category: power
+research: power-node
