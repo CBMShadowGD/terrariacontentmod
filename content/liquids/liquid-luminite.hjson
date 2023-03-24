@@ -1,0 +1,13 @@
+name: liquid luminite
+description: a celestial liquid made out of pure luminite, it can explode in high concentration.
+color: 9201B9
+
+temperature: 0.7
+viscosity: 0.7
+effect: burning
+
+flammability: 0.5
+
+coolnt: false
+
+research: luminite

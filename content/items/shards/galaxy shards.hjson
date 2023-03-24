@@ -1,0 +1,12 @@
+name: galaxy shards
+description: It came from a core in a far away galaxy, it has good coolant potential.
+color: 112dfa
+
+hardness: 3
+
+cost: 1
+healthScaling: 0.6
+
+hiddenOnPlanets: [erekir]
+
+research: luminite

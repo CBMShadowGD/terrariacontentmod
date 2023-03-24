@@ -1,0 +1,10 @@
+name: stardust fragments
+description: It has the power of galaxies, the power of luminite seems to have enhanced its coolant potential.
+color: 006aff
+
+cost: 1.2
+healthScaling: 1
+
+hiddenOnPlanets: [erekir]
+
+research: galaxy shards

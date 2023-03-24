@@ -1,0 +1,14 @@
+name: Luminite
+description: It vibrates with a luminous celestial energy.
+color: 9201B9
+
+flammability: 0.5
+radioactivity: 0.2
+hardness: 2
+
+cost: 1
+healthScaling: 0.5
+
+hiddenOnPlanets: [erekir]
+
+research: copper

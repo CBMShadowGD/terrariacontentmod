@@ -1,0 +1,37 @@
+name: cell
+type: flying
+description: A small swift unit that has a fast firing low damage weapon.
+health: 100
+speed: 4
+accel: 0.01
+drag: 0.005
+engineOffset: 8
+range: 90
+flying: true
+hitSize: 4
+targetGround: true
+targetAir: true
+rotateSpeed: 20
+research: stardust-factory
+
+weapons:[
+{
+ name: cellgun
+ reload: 10
+ x: 0
+ y: 0
+ rotate: false
+ recoil: 2
+ top:false
+ mirror: true
+ shootSound: lasershoot
+ bullet:{
+ type: BasicBulletType
+ splashDamageRadius: 0
+ damage: 4
+ speed: 5
+ lifetime: 45
+ }
+
+}
+]

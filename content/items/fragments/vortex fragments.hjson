@@ -1,0 +1,12 @@
+name: vortex fragments
+description: It has the power of storms, the power of luminite seems to have enhanced its electric potential.
+color: 00f2aa
+
+charge: 0.75
+
+cost: 1.3
+healthScaling: 1.2
+
+hiddenOnPlanets: [erekir]
+
+research: storm shards

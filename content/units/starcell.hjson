@@ -1,0 +1,56 @@
+name: starcell
+type: flying
+description: tier 2 for the cell unit tree, it is slower however in addition to the previous weapon also now has a missile launcher.
+health: 400
+speed: 2.5
+accel: 0.01
+drag: 0.005
+engineOffset: 8
+range: 90
+flying: true
+hitSize: 4
+targetGround: true
+targetAir: true
+rotateSpeed: 18
+research: stardust-additive-reconstructor
+
+weapons:[
+{
+ name: StardustCellGun
+ reload: 20
+ x: 0
+ y: 0
+ rotate: false
+ recoil: 3
+ top:false
+ mirror: true
+ shootSound: lasershoot
+ bullet:{
+ type: BasicBulletType
+ splashDamageRadius: 0
+ damage: 7
+ speed: 5
+ lifetime: 55
+ }
+
+}
+{
+ name: StardustCellGun2
+ reload: 120
+ x: 0
+ y: 0
+ rotate: false
+ recoil: 6
+ top:false
+ mirror:false
+ shootSound: lasershoot
+ bullet:{
+ type: missileBulletType
+ splashDamageRadius: 200
+ damage: 50
+ speed: 5
+ lifetime: 55
+ }
+
+}
+]
