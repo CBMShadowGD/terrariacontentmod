@@ -2,6 +2,8 @@ type: ConsumeGenerator
 name: luminite generator
 description: Uses the heat from luminite to produce power acts like a RTG generator.
 size: 2
+health: 200
+buildCostMultiplier: 0.5
 hasPower: true
 hasItems: true
 itemDuration: 300

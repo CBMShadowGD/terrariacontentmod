@@ -4,7 +4,7 @@ type: Wall
 health: 2500
 size: 2
 requirements: [
-  stardust fragments/24
+  stardust-alloy/24
 ]
 category: defense
 research: stardust-wall

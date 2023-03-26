@@ -2,6 +2,7 @@ name: large luminite wall
 description: A wall made of luminite.
 type: Wall
 health: 1500
+buildCostMultiplier: 0.66
 size: 2
 requirements: [
   luminite/24

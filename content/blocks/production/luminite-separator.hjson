@@ -1,0 +1,57 @@
+type: Separator
+name: luminite separator
+description: Extracts shards from liquid luminite.
+size: 2
+hasPower: true
+buildCostMultiplier: 0.5
+health: 250
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 1.5
+  liquid: {
+    liquid: liquid-luminite
+    amount: 0.35
+  }
+}
+requirements: [
+  luminite/150
+  silicon/100
+  titanium/100
+  thorium/50
+]
+
+category: crafting
+research: luminite-extractor
+idleSound: respawning
+idleSoundVolume: 0.5
+
+results:[
+  galaxy-shards/4
+  nebula-shards/3
+  storm-shards/2
+  sun-shards/1
+]
+
+drawer: {
+type: DrawMulti
+  drawers: [
+  {
+    type: DrawRegion
+    suffix: -bottom
+  }
+  {
+    type: DrawLiquidTile
+    drawLiquid: liquid-luminite
+  }
+  {
+    type: DrawRegion
+    suffix: -spinner
+    spinSprite: true
+    rotateSpeed: 3
+  }
+  {
+    type: DrawDefault
+  }
+]}

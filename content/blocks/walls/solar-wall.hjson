@@ -4,7 +4,7 @@ type: Wall
 health: 1125
 size: 1
 requirements: [
-  solar fragments/6
+  solar-alloy/6
 ]
 category: defense
 research: vortex-wall

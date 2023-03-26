@@ -1,0 +1,12 @@
+name: nebula shards
+description: It came about when the universe was born.
+color: e700ff
+
+hardness: 4
+
+cost: 1.1
+healthScaling: 0.7
+
+hiddenOnPlanets: [erekir]
+
+research: galaxy-shards

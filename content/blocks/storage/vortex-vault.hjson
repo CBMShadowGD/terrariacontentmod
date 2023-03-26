@@ -1,0 +1,16 @@
+type: StorageBlock 
+name: vortex vault
+description: Stores items
+itemCapacity: 1500
+size: 3
+health: 550
+
+requirements: [
+  luminite/200
+  thorium/100
+  vortex-alloy/50
+]
+category: effect
+research: vault
+
+

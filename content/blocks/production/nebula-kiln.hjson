@@ -1,9 +1,10 @@
 type: GenericCrafter
 name: nebula kiln
 description: used to make nebula fragments.
-buildCostMultiplier: 0.05
-liquidCapacity: 300
+buildCostMultiplier: 0.5
+liquidCapacity: 0.5
 itemCapacity: 20
+health: 300
 size: 2
 hasPower: true
 hasLiquids: true
@@ -14,21 +15,33 @@ consumes: {
   power: 1
   items: {
     items: [
-      nebula shards/5
+      nebula-shards/5
     ]
   }
   liquid: {
     liquid: liquid-luminite
-    amount: 1
+    amount: 0.2
   }
 }
 requirements: [
-  stardust fragments/30
+  stardust-alloy/30
   titanium/50
   silicon/50
   luminite/50
-  nebula shards/50
+  nebula-shards/50
 ]
 category: crafting
 research: stardust-kiln
-outputItem: nebula fragments/1
+outputItem: nebula-alloy/1
+
+drawer: {
+type: DrawMulti
+  drawers: [
+  {
+    type: DrawDefault
+  }
+  {
+    type: DrawFlame
+    //suffix: -top
+  }
+]}

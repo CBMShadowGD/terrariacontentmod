@@ -1,10 +1,11 @@
 type: GenericCrafter
 name: "Ancient Manipulator"
 description: "Melts luminite down for further use."
-liquidCapacity: 300
+liquidCapacity: 1
+health: 350
 outputLiquid: {
   liquid: liquid-luminite
-  amount: 2.5
+  amount: 0.5
 }
 size: 3
 hasPower: true
@@ -28,4 +29,14 @@ requirements: [
 category: crafting
 research: kiln
 
-
+drawer: {
+type: DrawMulti
+  drawers: [
+  {
+    type: DrawDefault
+  }
+  {
+    type: DrawFlame
+    //suffix: -top
+  }
+]}

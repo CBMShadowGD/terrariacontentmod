@@ -1,8 +1,9 @@
 type: GenericCrafter
 name: vortex kiln
 description: used to make vortex fragments.
-buildCostMultiplier: 0.05
-liquidCapacity: 300
+buildCostMultiplier: 0.5
+liquidCapacity: 0.5
+health: 350
 itemCapacity: 20
 size: 2
 hasPower: true
@@ -14,21 +15,33 @@ consumes: {
   power: 1
   items: {
     items: [
-      storm shards/5
+      storm-shards/5
     ]
   }
   liquid: {
     liquid: liquid-luminite
-    amount: 1
+    amount: 0.2
   }
 }
 requirements: [
-  nebula fragments/25
+  nebula-alloy/25
   thorium/50
   silicon/50
   luminite/100
-  storm shards/50
+  storm-shards/50
 ]
 category: crafting
 research: nebula-kiln
-outputItem: vortex fragments/1
+outputItem: vortex-alloy/1
+
+drawer: {
+type: DrawMulti
+  drawers: [
+  {
+    type: DrawDefault
+  }
+  {
+    type: DrawFlame
+    //suffix: -top
+  }
+]}

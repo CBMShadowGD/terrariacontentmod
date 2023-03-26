@@ -1,0 +1,13 @@
+name: sun shards
+description: It came from the brightest of stars, it is very flammable.
+color: FFE714
+
+hardness: 6
+flammability: 0.3
+
+cost: 1.2
+healthScaling: 1
+
+hiddenOnPlanets: [erekir]
+
+research: storm-shards

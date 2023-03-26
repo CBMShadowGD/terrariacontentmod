@@ -1,0 +1,12 @@
+name: solar alloy
+description: It has the power of sun, the power of luminite seems to have enhanced its heat potential.
+color: fff300
+
+flammability: 0.8
+
+cost: 1.4
+healthScaling: 1.4
+
+hiddenOnPlanets: [erekir]
+
+research: sun-shards

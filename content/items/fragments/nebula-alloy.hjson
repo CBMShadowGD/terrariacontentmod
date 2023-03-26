@@ -1,0 +1,10 @@
+name: nebula alloy
+description: It has the power of stars, the power of luminite seems to have enhanced its potential.
+color: e700ff
+
+cost: 1.3
+healthScaling: 1.1
+
+hiddenOnPlanets: [erekir]
+
+research: nebula-shards

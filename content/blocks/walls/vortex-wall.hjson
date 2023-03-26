@@ -4,7 +4,7 @@ type: Wall
 health: 875
 size: 1
 requirements: [
-  vortex fragments/6
+  vortex-alloy/6
 ]
 category: defense
 research: nebula-wall

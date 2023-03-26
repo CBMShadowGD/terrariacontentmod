@@ -1,10 +1,11 @@
 type: GenericCrafter
 name: stardust kiln
 description: used to make stardust fragments
-liquidCapacity: 300
+liquidCapacity: 0.5
+health: 300
 itemCapacity: 20
 size: 2
-buildCostMultiplier: 0.05
+buildCostMultiplier: 0.5
 hasPower: true
 hasLiquids: true
 hasItems: true
@@ -14,20 +15,32 @@ consumes: {
   power: 1
   items: {
     items: [
-      galaxy shards/5
+      galaxy-shards/5
     ]
   }
   liquid: {
     liquid: liquid-luminite
-    amount: 1
+    amount: 0.2
   }
 }
 requirements: [
-  galaxy shards/50
+  galaxy-shards/50
   titanium/50
   silicon/50
   luminite/50
 ]
 category: crafting
 research: ancient-manipulator
-outputItem: stardust fragments/1
+outputItem: stardust-alloy/1
+
+drawer: {
+type: DrawMulti
+  drawers: [
+  {
+    type: DrawDefault
+  }
+  {
+    type: DrawFlame
+    //suffix: -top
+  }
+]}

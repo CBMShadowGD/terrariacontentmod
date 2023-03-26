@@ -1,6 +1,7 @@
 name: Stardust Factory
 description: makes stardust units
 type: UnitFactory
+health: 400
 size: 3
 consumes: {
 power: 2
@@ -10,7 +11,7 @@ plans: [
 unit: cell
 requirements: [
 luminite/25
-galaxy shards/50
+galaxy-shards/50
 silicon/30
 ]
 time:600
@@ -19,7 +20,7 @@ time:600
 
 requirements: [
 luminite/50
-stardust fragments/25
+stardust-alloy/25
 silicon/25
 ]
 category: units

@@ -2,7 +2,7 @@ type: Conveyor
 name: stardust conveyor
 description: faster than titanium
 requirements: [
-  stardust fragments/1
+  stardust-alloy/1
   copper/1
   lead/1
   luminite/1

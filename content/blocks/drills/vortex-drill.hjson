@@ -1,22 +1,33 @@
 name: vortex drill
-description: used to mine sun shards
+description: Used to mine sun shards, needs liquid of the cosmos.
 type: Drill
 size: 4
 tier: 6
-drillTime:40
+health: 1000
+drillTime: 10
+buildCostMultiplier: 0.6
+drawRim: true
 consumes: {
   power: 4
-  liquid: {
+
+  liquid: { 
     liquid: liquid-of-the-cosmos
-    amount: 0.2
+    amount: 0.15
     booster: false
+    optional: false
   }
+
+//{ liquid: water, amount: 0.15, booster: true, optional: true }
+
 }
 requirements: [
-  vortex fragments/50
+  vortex-alloy/50
   thorium/100
   silicon/100
   luminite/200
 ]
 category: production
 research: airblast-drill
+
+rotateSpeed: 6
+liquidBoostIntensity: 1

@@ -2,27 +2,28 @@ name: stardust infuser
 type: GenericCrafter
 size: 3
 craftTime: 180
+health: 400
 hasPower: true
-liquidCapacity: 100
+liquidCapacity: 0.5
 outputLiquid: {
   liquid: liquid-of-the-cosmos
-  amount: 2.5
+  amount: 0.25
 }
 consumes: {
   power: 3
   items: {
     items: [ 
-      stardust fragments/5
+      stardust-alloy/5
     ]
   }
   liquid: { 
     liquid: 
     cryofluid
-    amount: 3
+    amount: 0.3
   }
 }
 requirements: [ 
-  stardust fragments/50 
+  stardust-alloy/50 
   silicon/75 
   thorium/50
   luminite/100 

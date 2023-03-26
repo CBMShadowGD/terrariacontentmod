@@ -2,7 +2,7 @@ type: conduit
 name: stardust conduit
 description: a conduit made of stardust, faster than pulse conduits
 requirements: [
-  stardust fragments/1
+  stardust-alloy/1
   metaglass/1
   luminite/1
 ]

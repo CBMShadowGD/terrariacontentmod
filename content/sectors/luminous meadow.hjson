@@ -1,0 +1,7 @@
+sector: 202
+planet: serpulo
+description: A small sector that serves as a good place to begin.
+difficulty: 1
+alwaysUnlocked: true
+captureWave: 20
+research: core-shard

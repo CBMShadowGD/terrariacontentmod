@@ -4,7 +4,7 @@ type: Wall
 health: 4500
 size: 2
 requirements: [
-  solar fragments/24
+  solar-alloy/24
 ]
 category: defense
 research: solar-wall

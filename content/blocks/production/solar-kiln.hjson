@@ -1,8 +1,9 @@
 type: GenericCrafter
 name: solar kiln
 description: used to make solar fragments.
-buildCostMultiplier: 0.05
-liquidCapacity: 300
+buildCostMultiplier: 0.5
+liquidCapacity: 0.5
+health: 350
 itemCapacity: 20
 size: 2
 hasPower: true
@@ -14,21 +15,33 @@ consumes: {
   power: 1
   items: {
     items: [
-      sun shards/5
+      sun-shards/5
     ]
   }
   liquid: {
     liquid: liquid-luminite
-    amount: 1
+    amount: 0.2
   }
 }
 requirements: [
-  vortex fragments/25
+  vortex-alloy/25
   thorium/75
   silicon/50
   luminite/150
-  sun shards/50
+  sun-shards/50
 ]
 category: crafting
 research: vortex-kiln
-outputItem: solar fragments/1
+outputItem: solar-alloy/1
+
+drawer: {
+type: DrawMulti
+  drawers: [
+  {
+    type: DrawDefault
+  }
+  {
+    type: DrawFlame
+    //suffix: -top
+  }
+]}

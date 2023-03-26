@@ -1,0 +1,27 @@
+type: MendProjector
+name: nebula mend projector
+description: a stardust mender
+size: 2
+reload: 300
+health: 350
+healPercent: 15
+range: 120
+phaseRangeBoost: 0
+phaseBoost: 0
+hasPower: true
+consumes: {
+  power: 2
+  liquid: {
+    liquid: liquid-of-the-cosmos
+    amount: 0.02
+  }
+}
+requirements: [
+  nebula-alloy/30
+  titanium/50
+  silicon/50
+  luminite/50
+]
+category: effect
+research: mend-projector
+

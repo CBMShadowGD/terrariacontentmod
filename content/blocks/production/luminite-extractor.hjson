@@ -4,6 +4,7 @@ description: Extracts luminite from deep below.
 size: 2
 hasPower: true
 hasItems: true
+health: 200
 craftTime: 45
 updateEffect: smeltsmoke
 consumes: {

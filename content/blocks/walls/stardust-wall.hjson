@@ -4,7 +4,7 @@ type: Wall
 health: 625
 size: 1
 requirements: [
-  stardust fragments/6
+  stardust-alloy/6
 ]
 category: defense
 research: luminite-wall
