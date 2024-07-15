@@ -1,0 +1,49 @@
+ammoTypes: [
+  water: {
+    type: LiquidBulletType
+    liquid: water
+    status: wet
+    hitColor: 596ab8
+    knockback: 0.7
+    drag: 0.01
+    layer: 98
+  }
+  slag: {
+    type: LiquidBulletType
+    liquid: slag
+    status: melting
+    hitColor: ffa166
+    lightColor: f0511d
+    lightOpacity: 0.4
+    damage: 4
+    drag: 0.01
+  }
+  cryofluid: {
+    type: LiquidBulletType
+    liquid: cryofluid
+    status: freezing
+    hitColor: 6ecdec
+    lightColor: 6ecdec
+    lightOpacity: 0.2
+    drag: 0.01
+  }
+  oil: {
+    type: LiquidBulletType
+    liquid: oil
+    status: tarred
+    hitColor: 313131
+    drag: 0.01
+    layer: 98
+  }
+  liquid-luminite: {
+    type: LiquidBulletType
+    liquid: liquid-luminite
+    status: melting
+
+    hitColor: ffa166
+    lightColor: f0511d
+    lightOpacity: 0.4
+    damage: 5
+    drag: 0.01
+  }
+]
